@@ -1,11 +1,6 @@
 # robomaster-OpenMV
 a project of robomaster 2019 on Intramural race
----
-title: 用OpenMV实现循迹
-date: 2018-10-5 20:13:18
-tags: [OpenMV]
-categories: 技术
----
+
 ![head](https://ksr-ugc.imgix.net/assets/022/418/689/2babfabc079b82a2ab8eb527a589baf0_original.jpg?ixlib=rb-1.1.0&w=680&fit=max&v=1535845522&auto=format&gif-q=50&q=92&s=d00b5c3ecc28b8c4790e0705a959730a)
 
 为了迎接实验室举办的robomaster校内赛，我负责建造一个利用图像识别循迹的小车，来应对90度甚至135度的大转弯，与此同时，还可能面临一些其它识别。我主要要研究的是如何利用OpenMV来识别路况，通过uart串口协议指挥stm32来控制小车进行一系列的动作。
